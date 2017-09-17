@@ -12,14 +12,19 @@
         android:layout_height="wrap_content"
         android:text="Button"
         tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="391dp" />
+        tools:layout_editor_absoluteY="391dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="159dp"
         android:layout_height="184dp"
-        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="34dp"
         tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="119dp" />
+        tools:layout_editor_absoluteY="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
